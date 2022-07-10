@@ -159,3 +159,21 @@ a:visited{
     margin: 2%;
     max-width: 100%;
 }
+
+/* Testimonials */
+.testimonials{
+    display: flex;
+    flex-direction: column;
+}
+.testimonials-lower{
+    display: flex;
+    justify-content: space-around;
+}
+.testimonials-carts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.person{
+    display: flex;
+}
