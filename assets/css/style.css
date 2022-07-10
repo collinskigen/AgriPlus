@@ -142,3 +142,20 @@ a:visited{
     font-size: 1.5rem;
     
 }
+/* Products */
+.products{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+
+}
+.products-list{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+
+}
+.product-cart{
+    margin: 2%;
+    max-width: 100%;
+}
