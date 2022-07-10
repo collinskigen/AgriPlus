@@ -45,8 +45,9 @@ a:visited{
 }
 .btn{
     background-color: #ED661F;
-    padding: 10px;
+    padding: 20px;
     color: #fff;
+    font-size: 1.5rem;
 }
 
 /* landing page  */
@@ -108,3 +109,19 @@ a:visited{
     /* max-height: 100%; */
 
 }
+.hero-lower{
+    display: flex;
+    justify-content: center;
+}
+.hero-bar{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    padding: 2%;
+}
+.hero-bar span{
+    display: block;
+}
+
