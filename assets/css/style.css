@@ -125,3 +125,20 @@ a:visited{
     display: block;
 }
 
+/* About */
+.about{
+    display: flex;
+}
+.about-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about-text h1{
+    margin-bottom: 3%;
+    font-size: 3rem;
+}
+.about-text p{
+    font-size: 1.5rem;
+    
+}
