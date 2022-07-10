@@ -1,11 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
-    font-family: serif;
-    /* color: #ED661F; */
+    font-family: Poppins, Inter;
 }
 /* Navbar  */
 #nav{
@@ -37,11 +37,13 @@ li{
     list-style: none;
     margin: 5%;
 }
-a{
+nav a{
     text-decoration: none;
+    color: #fff;
 }
 a:visited{
-    border-bottom: 3px solid #ED661F;
+    text-decoration: underline;
+    text-decoration-color: #ED661F;
 }
 .btn{
     background-color: #ED661F;
