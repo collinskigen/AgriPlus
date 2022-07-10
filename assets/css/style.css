@@ -3,9 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* body{
-    color: #ED661F;
-} */
+body{
+    font-family: serif;
+    /* color: #ED661F; */
+}
+/* Navbar  */
 #nav{
 
 background-color: black;
@@ -45,4 +47,64 @@ a:visited{
     background-color: #ED661F;
     padding: 10px;
     color: #fff;
+}
+
+/* landing page  */
+#hero{
+    background-image: url("../images/image\ 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    margin: auto 5%;
+}
+.hero-upper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+    width: 100%;
+
+}
+
+.hero-text{
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+.hero-text *{
+    margin: 1%;
+}
+.hero-text h1{
+    font-size: 5rem;
+}
+.hero-text p{
+    font-size: 3rem;
+}
+.hero-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    width: 100%;
+    margin-top: 5%;
+    /* background-color: #ED661F; */
+    /* background-image: url("../images/image\ 2.png"); */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat;  */
+
+}
+.hero-img img{
+    max-width: 100%;
+    /* max-height: 100%; */
+
 }
